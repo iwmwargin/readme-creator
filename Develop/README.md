@@ -1,6 +1,6 @@
 
-  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
-  # dsfdf
+  ![License](https://img.shields.io/badge/license-Unlicense-blue.svg)
+  # README Generator
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -14,23 +14,22 @@
   
 
   ## Description
-  gfdavgdsg
+  This is a node.js project built to provide the user with an easy way to generate a README file for their next project.  It is done through node.js in your coding terminal. It will cycle through questions to help you build a quick and professional README
   ## Installation
-  gdsgfeg
+  You will need to require fs, path and inquirer.  You will also need to install node.js.
   ## Languages
-   JavaScript
+   JavaScript,Node
   ## Live URL Link
-  bfsvgdfs
+  https://iwmwargin.github.io/readme-creator/
   ## Usage
-  fdsbfds
+  Simple and easy.  Just install node.js and run node index in your terminal.  Then answer the questions and you will get a new README!
   ## Contributors
-  gfsdvfesd
+  Eric Wargin
   ## Tests
-  bfdbfds
+  No tests required.
   ## Questions? 
-  bfdsbfd
+  iwmwargin@gmail.com
   <br>
-  https://github.com/bfdbdf
+  https://github.com/iwmwargin
   ## License
-  
-      This project is licensed under the Apache_2.0 license. Please see https://opensource.org/licenses/Apache-2.0 for more details.   
+  This project is licensed under the Unlicense. Please see http://unlicense.org/ for more details.  

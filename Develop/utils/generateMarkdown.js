@@ -59,8 +59,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "Unlicensed") {
     return (
-      `
-      This project is licensed under the ${license} license. Please see ${renderLicenseLink(license)} for more details. `
+      `This project is licensed under the ${license}. Please see ${renderLicenseLink(license)} for more details.`
     )
   }
   return "";
