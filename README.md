@@ -32,6 +32,10 @@
   <br>
   https://github.com/iwmwargin
   ## Video Link and Screenshot
-  
+  Link to Video (Must be downloaded to view!)
+  <a href="https://github.com/iwmwargin/readme-creator/blob/main/assets/README%20Walkthrough/Video.mp4" target="_blank">
+
+  Image of Project in Terminal
+  <img src="https://github.com/iwmwargin/readme-creator/blob/main/assets/Terminal.png">
   ## License
   This project is licensed under the Unlicense. Please see http://unlicense.org/ for more details.  
