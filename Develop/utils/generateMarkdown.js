@@ -13,7 +13,9 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-//   (https://opensource.org/licenses/Apache-2.0)
+  console.log(license)
+  let licenseLink = [];
+  return `(https://opensource.org/licenses/Apache-2.0)`
 }
 
 // TODO: Create a function that returns the license section of README
@@ -23,28 +25,23 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  ${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.license)}${renderLicenseLink()}
   # ${data.title}
   ## Table of Contents
-  [Description](#description)
-  <br>
-  [Installation](#install)
-  <br>
-  [Languages Used](#languages)
-  <br>
-  [Usage](#usage)
-  <br>
-  [Link to URL](#link)
-  <br>
-  [Contributors](#contributors)
-  <br>
-  [Testing](#tests)
-  <br>
-  [Questions](#questions)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Languages](#languages)
+  * [Usage](#usage)
+  * [Link to URL](#live-url-link)
+  * [Contributors](#contributors)
+  * [Testing](#tests)
+  * [Questions](#questions)
+  
+
   ## Description
   ${data.description}
   ## Installation
-  ${data.install}
+  ${data.installation}
   ## Languages Used
    ${data.languages}
   ## Live URL Link
@@ -57,6 +54,7 @@ function generateMarkdown(data) {
   ${data.tests}
   ## Questions? 
   ${data.questions}
+  https://github.com/${data.github}
 `;
 }
 

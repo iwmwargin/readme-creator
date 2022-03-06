@@ -28,7 +28,7 @@ const questions = [
 
     {
         type: "input",
-        name: "install",
+        name: "installation",
         message: "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running (if required)"
 
     },
@@ -41,9 +41,9 @@ const questions = [
     },
 
     {
-        type: 'input',
-        name: 'link',
-        message: 'Enter the URL link to your project. (Required)',
+        type: "input",
+        name: "link",
+        message: "Enter the URL link to your project. (Required)",
         validate: link => {
             if (link) {
                 return true;
@@ -52,6 +52,12 @@ const questions = [
                 return false;
             }
         }
+      },
+
+      {
+          type: "input",
+          name: "usage",
+          message: "Please provide instructions on how to use your project"
       },
 
       {
@@ -78,8 +84,22 @@ const questions = [
                 console.log("Please provide an email address!");
                 return false;
             }
+        },
     },
-}
+    {
+        type: "input",
+        name: "github",
+        message: "Insert your GitHub username here so you can be reached if there are questions!",
+        validate: link => {
+            if (link) {
+                return true;
+            } else {
+                console.log("Please provide an GitHub username!");
+                return false;
+            }
+        },
+    }
+
 
     
 ];
