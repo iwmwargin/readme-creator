@@ -33,6 +33,7 @@
   https://github.com/iwmwargin
   ## Video Link and Screenshot
   Link to Video (Must be downloaded to view!)
+  <br>
   <a href="https://github.com/iwmwargin/readme-creator/blob/main/assets/README%20Walkthrough/Video.mp4" target="_blank">Video</a>
 
   Image of Project in Terminal
