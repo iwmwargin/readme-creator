@@ -1,6 +1,6 @@
 
-  ![License](https://img.shields.io/badge/license-Unlicense-blue.svg)
-  # README Generator
+  ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+  # Run Buddy
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
@@ -14,22 +14,22 @@
   
 
   ## Description
-  This is a node.js project built to provide the user with an easy way to generate a README file for their next project.  It is done through node.js in your coding terminal. It will cycle through questions to help you build a quick and professional README
+  This a website that connects potential workout people with professional workout employees.
   ## Installation
-  You will need to require fs, path and inquirer.  You will also need to install node.js.
+  Install node.js
   ## Languages
    JavaScript,Node
   ## Live URL Link
-  https://iwmwargin.github.io/readme-creator/
+  www.runbuddy.com
   ## Usage
-  Simple and easy.  Just install node.js and run node index in your terminal.  Then answer the questions and you will get a new README!
+  Run Buddy is pretty straight forward.
   ## Contributors
   Eric Wargin
   ## Tests
-  No tests required.
+  No testing required.
   ## Questions? 
   iwmwargin@gmail.com
   <br>
   https://github.com/iwmwargin
   ## License
-  This project is licensed under the Unlicense. Please see http://unlicense.org/ for more details.  
+  This project is licensed under the MIT. Please see https://opensource.org/licenses/MIT for more details.  
