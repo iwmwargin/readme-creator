@@ -57,20 +57,26 @@ const questions = [
       {
           type: "input",
           name: "usage",
-          message: "Please provide instructions on how to use your project"
+          message: "Please provide instructions on how to use your project!"
       },
 
       {
         type: "list",
         name: "license",
         message: "What license would you like to use?",
-        choices:["Apache_2.0", "Boost_1.0", "MIT"]
+        choices:["Apache_2.0", "Boost_1.0", "MIT", "GPL_3.0", "Unlicense"]
     },
 
     {
         type: "input",
         name: "contributors",
         message: "Who contributed to the creation of your app?"
+    },
+
+    {
+        type: "input",
+        name: "tests",
+        message: "Please give explicit instructions on how to run all necessary tests. Supply libraries used for testing and provide necessary commands."
     },
 
     {
@@ -98,8 +104,7 @@ const questions = [
                 return false;
             }
         },
-    }
-
+    },
 
     
 ];
